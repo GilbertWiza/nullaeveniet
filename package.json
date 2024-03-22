@@ -1,0 +1,39 @@
+{
+  "name": "nullaeveniet",
+  "version": "1.0.0",
+  "description": "Super fast hashing library based on murmurhash3 written in Vanilla JS",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GilbertWiza/nullaeveniet.git"
+  },
+  "license": "MIT",
+  "sideEffects": false,
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@nuxtjs/eslint-config-typescript": "latest",
+    "@types/node": "^18.0.4",
+    "c8": "latest",
+    "eslint": "latest",
+    "standard-version": "latest",
+    "typescript": "latest",
+    "unbuild": "latest",
+    "vitest": "latest"
+  },
+  "packageManager": "pnpm@7.5.2",
+  "author": "JenniferUllrich",
+  "bugs": {
+    "url": "https://github.com/GilbertWiza/nullaeveniet.git/issues"
+  }
+}
